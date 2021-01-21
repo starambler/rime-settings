@@ -40,10 +40,10 @@ sudo dnf install ibus-rime
 
 ```bash
 # 下载配置文件
-git clone https://github.com/jayknoxqu/ibus-rime.git
+git clone https://github.com/starambler/rime-settings.git
 
 # 复制配置文件
-cp -r ibus-rime/* ~/.config/ibus/rime
+cp -r rime-settings/* ~/.config/ibus/rime
 
 # 部署配置文件
 ibus-daemon -drx
