@@ -9,7 +9,7 @@
 # 於重新部署後生效
 
 patch:
-  menu/page_size: 5 #候选词数
+  menu/page_size: 8 #候选词数
   style/horizontal: true # 候选窗水平显示
 
 
