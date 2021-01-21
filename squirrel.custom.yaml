@@ -32,4 +32,4 @@ patch:
       #hilited_comment_text_color: 0xdedddd      # 注解文字高亮
 
 
-  "app_options/com.runningwithcrayons.Alfred-3/ascii_mode": true
+  "app_options/com.runningwithcrayons.Alfred-3/ascii_mode": true 
