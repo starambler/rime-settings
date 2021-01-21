@@ -10,7 +10,8 @@
 
 patch:
   schema_list:
-    - schema: luna_pinyin # 全拼
+    - schema: luna_pinyin_simp      # 朙月拼音 简化字
+    - schema: luna_pinyin #  朙月拼音 
   menu/page_size: 8 #候选词数
   style/horizontal: true # 候选窗水平显示
 
