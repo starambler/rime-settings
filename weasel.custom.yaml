@@ -93,5 +93,4 @@ patch:
       # label_font_face: "STHeitiSC-Light"
       label_font_point: 12
       name: "冷漠／Apathy"
-      text_color: 0x424242  
-      
+      text_color: 0x424242 
