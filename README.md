@@ -24,9 +24,6 @@ brew cask install squirrel
 
 
 - **Linux：** 中州韵
-
-
- **1. [ibus-rime](https://github.com/rime/ibus-rime)：** 基于 IBus 輸入法框架  
           
 ``` bash
 # Ubuntu
@@ -37,11 +34,7 @@ sudo dnf install ibus-rime
 
 # [更多发行版...](https://github.com/rime/home/wiki/RimeWithIBus)
 ```
-
-
- **2. [fcitx-rime](https://github.com/fcitx/fcitx-rime)：** 基于 Fcitx 輸入法框架（已停更）
-          
-          
+                    
 
 ### 重启输入法
 安装完毕需要重启输入法`ibus restart`，或者注销用户重新登录
@@ -110,61 +103,5 @@ MSPY雙拼  double_pinyin_mspy
 Ctrl + ` or F4  # 打开设置菜单
 Ctrl + .        # 切换标点符号
 Ctrl + Delete   # 删除用户词条
-```
-
-
-
-### 安装插件
-
-
-```bash
-# 下载 plum
-curl -fsSL https://git.io/rime-install | bash
-
-# 安装表情 https://github.com/rime/rime-emoji
-bash plum/rime-install emoji
-
-# 配置到对应的输入法
-bash plum/rime-install emoji:customize:schema=luna_pinyin_simp
-
-# [更多插件...](https://github.com/rime/plum)
-```
-
-
-
-### 横屏问题
-
-Linux 下 gnome 3.32验证通过
-
-```bash
-tee ~/.config/ibus/rime/build/ibus_rime.yaml <<-'EOF'
-style:
-   horizontal: true
-EOF
-```
-
-
-
-### 词库转换
-
-```
-深蓝词库转换: https://github.com/studyzy/imewlconverter
-```
-
-
-
-### 排序并去重
-
-```bash
-sort 1.txt | uniq > 2.txt
-```
-
-
-
-###  Unix文件格式转换器
-
-```bash
-dos2unix [选项] [文件 …] [-n 输入文件 输出文件 ...]
-unix2dos [选项] [文件 …] [-n 输入文件 输出文件 ...]
 ```
 
