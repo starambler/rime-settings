@@ -16,7 +16,7 @@ RIME 是一款开源、跨平台、且简洁流畅的输入法引擎， 不同�
 - **MacOS：** 鼠须管([Squirrel](https://github.com/rime/squirrel))
 
 
-- **Linux：** 中州韵【[wiki](https://github.com/rime/home/wiki/RimeWithIBus)】                 
+- **Linux：** 中州韵【[ibus-rime](https://github.com/rime/home/wiki/RimeWithIBus)】                 
 
 ### 用法
  1. 安装Rime输入法,并注销或重启
