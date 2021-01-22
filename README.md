@@ -81,10 +81,7 @@ installation.yaml: 安装时自动创建的配置文件
 朙月拼音·简化字	luna_pinyin_simp
 朙月拼音·臺灣正體	luna_pinyin_tw
 朙月拼音·語句流  luna_pinyin_fluency
-自然碼雙拼	 double_pinyin
-智能ABC雙拼  double_pinyin_abc
 小鶴雙拼  double_pinyin_flypy
-MSPY雙拼  double_pinyin_mspy
 ```
 
 
