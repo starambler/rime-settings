@@ -10,13 +10,13 @@
 
 RIME 是一款开源、跨平台、且简洁流畅的输入法引擎， 不同平台有着不同代号：
 
-- **Windows：** 小狼毫( [Weasel](https://github.com/rime/weasel))【[下载](https://bintray.com/rime/weasel/release)】
+- **Windows：** 小狼毫( [Weasel](https://github.com/rime/weasel))
 
 
+- **MacOS：** 鼠须管([Squirrel](https://github.com/rime/squirrel))
 
-- **MacOS：** 鼠须管([Squirrel](https://github.com/rime/squirrel))【[下载](https://bintray.com/rime/squirrel/release)】
 
-- **Linux：** 中州韵 【[安装](https://github.com/rime/home/wiki/RimeWithIBus)】                 
+- **Linux：** 中州韵【[wiki](https://github.com/rime/home/wiki/RimeWithIBus)】                 
 
 ### 用法
  1. 安装Rime输入法,并注销或重启
