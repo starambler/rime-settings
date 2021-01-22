@@ -16,40 +16,12 @@ RIME 是一款开源、跨平台、且简洁流畅的输入法引擎， 不同�
 
 - **MacOS：** 鼠须管([Squirrel](https://github.com/rime/squirrel))【[下载](https://bintray.com/rime/squirrel/release)】
 
-- **Linux：** 中州韵
-          
-``` bash
-# Ubuntu
-sudo apt-get install ibus-rime
+- **Linux：** 中州韵                  
 
-# Fedora
-sudo dnf install ibus-rime
-
-```
-                    
-
-### 重启输入法
-安装完毕需要重启输入法`ibus restart`，或者注销用户重新登录
-
-
-
-
-### 使用配置
-
-本配置适用于Linux（朙月拼音·简化字）配置
-
-```bash
-# 下载配置文件
-git clone https://github.com/starambler/rime-settings.git
-
-# 复制配置文件
-cp -r rime-settings/* ~/.config/ibus/rime
-
-# 部署配置文件
-ibus-daemon -drx
-```
-
-
+### 用法
+ 1. 安装Rime输入法,并注销或重启
+ 2. 下载仓库配置文件复制到本地配置文件夹
+  安装完毕需要部署`，或者注销用户重新登录
 
 ### 文件位置
 
